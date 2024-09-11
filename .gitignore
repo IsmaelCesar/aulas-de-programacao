@@ -1,0 +1,8 @@
+.vscode/*
+*.exe
+*.o
+tempCodeRunnerFile.*
+*.zip
+*.tar
+*.rar
+*.xz
