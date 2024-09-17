@@ -2,27 +2,28 @@
 
 int main(){
 
-    int valor = 10;
-    int *ptr_v = &valor;
+    // int valor = 10;
+    // int *ptr_v = &valor;
 
-    printf("Endereco de memoria(ptr): %p\n", ptr_v);
-    printf("Endereco de memoria(int): %d\n", ptr_v);
-    printf("Endereco de memoria(int) valor: %p\n", &valor);
+    // printf("Endereco de memoria(ptr): %p\n", ptr_v);
+    // printf("Endereco de memoria(int): %d\n", ptr_v);
+    // printf("Endereco de memoria(int) valor: %p\n", &valor);
 
-    // Acessando o valor salvo por um inteiro
-    printf("Endereco de memoria(ptr): %d\n", *ptr_v);
+    // // Acessando o valor salvo por um inteiro
+    // printf("Endereco de memoria(ptr): %d\n", *ptr_v);
 
-    // // Alterando valor da variável original
+    // // // Alterando valor da variável original
     int v = 50; 
     int *ptr = &v;
+    int *ptr_2 = &v; // evitar a qualquer custo -> semente do mal
     printf("Antigo valor de v: %d\n", v);
     printf("Ponteiro de v: %p\n", ptr);
     *ptr = 15;
     printf("Novo valor de v: %d\n", v);
-    printf("Ponteiro de v: %p\n", ptr);
-    printf("Valor apontado por ptr: %p\n", *ptr);
+    // printf("Ponteiro de v: %p\n", ptr);
+    // printf("Valor apontado por ptr: %d\n", *ptr);
 
-    *ptr = *ptr / 32;
+    *ptr = *ptr / 3;
     printf("Valor apontado por ptr: %d\n", *ptr);
     printf("Valor de v: %d\n", v);
 

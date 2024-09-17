@@ -14,8 +14,12 @@ int main(){
 
     // acessando ponteiros da maneira tradicional
     printf("Modelo do carro: %s\n", ptr->modelo);
+    // printf("Modelo do carro: %s\n", (*ptr).modelo);
     printf("Ano do carro: %d\n", ptr->ano);
     printf("Preco do carro: %.2lf\n", ptr->preco);
+
+    ptr->preco = ptr->preco / 2;
+    printf("Novo preco do carro: %.2lf\n", ptr->preco);
 
     return 0;
 }
