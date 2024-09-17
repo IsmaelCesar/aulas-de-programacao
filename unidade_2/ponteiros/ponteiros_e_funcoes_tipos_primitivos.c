@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-void funcao_ptr(int *v){
-    *v = *v + 20;
+void funcao_ptr(int *v){// 004
+    *v = *v + 20; // 15 + 20
 }
 
 void outra_funcao_ptr(int *v, float *f, char *g){
+    *g = 'f';
+    *f += 45; 
     //...
 }
 
