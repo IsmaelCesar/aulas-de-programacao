@@ -25,10 +25,18 @@ int  main(){
     };
 
     for(int i = 0; i < 3; i++){
-        if((mesas + i)->num_pernas){ // mesas[i].num_pernas
+        if((mesas + i)->num_pernas > 3){ // mesas[i].num_pernas
             (mesas + i)->num_pernas = 3;
         }
     }
+
+    imprime_mesas(mesas, 3);
+
+    for(int i = 0; i < 3; i++){
+        atualiza_mesa(mesas + i);
+    }
+
+    imprime_mesas(mesas, 3);
 
     return 0;
 }
