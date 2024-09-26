@@ -33,7 +33,7 @@ void escreve_binario_alternativo(int *valor_1, float *valor_2){
     FILE *f = fopen("alternativo.bin", "wb");
 
     fwrite(valor_1, sizeof(int), 1, f);
-    fwrite(valor_2, sizeof(int), 1, f);
+    fwrite(valor_2, sizeof(float), 1, f);
 
     fclose(f);
 }
