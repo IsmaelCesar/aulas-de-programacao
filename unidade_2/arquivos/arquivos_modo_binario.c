@@ -3,6 +3,7 @@
 
 void escreve_binario(){
     FILE *f = fopen("arquivo.bin", "wb");
+    // wb - escrita , rb - leitura , ab - concatenacao
 
     int valor_1 = 10;
     float valor_2 = 129.8;

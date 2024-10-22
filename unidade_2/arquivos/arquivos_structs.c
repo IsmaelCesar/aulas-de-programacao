@@ -36,6 +36,7 @@ void salva_estrutura_bin(){
     mesa m1 = {"Micro mesas", 3};
 
     FILE *f = fopen("mesas.bin", "wb");
+    // wb - escrita ; rb - leitura ; ab - concatenação
 
     fwrite(&m1, sizeof(mesa), 1, f);
 
