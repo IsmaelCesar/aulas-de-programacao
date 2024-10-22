@@ -1,18 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 
-struct ponto { 
+typedef struct ponto { 
     float x;
     float y;
-};
+} Ponto;
+
+typedef struct{
+    char nome[50];
+    Ponto p;
+} Artificial;
 
 int main(){
-    struct ponto p;
-    p.x = 1.1;
-    p.y = 2.2;
-
-    printf("x: %f y: %f\n", p.x, p.y);
     
+    float w = 10;
+    
+    Ponto p = {3.2, 4.4};
+
+    Ponto w = { .y = 4.4 , .x = 2.2};
 
     return 0;
 }
