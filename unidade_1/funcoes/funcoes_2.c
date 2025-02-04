@@ -1,30 +1,31 @@
 #include <stdio.h>
-#define MAX 100
 
-int somatorio(int inicio, int final);
+// função que soma três inteiros
+int soma_tres_numeros(int x, int y, int z){
+    return x + y + z;
+}
 
-int sub(int x, int y){
-    return x - y;
+// implementar uma função que calcule a n-ésima potência de x;
+int n_potencia(int x, int exp);
+
+void imprime_mensagem();
+void imprime_mensagem(){
+    printf("Esta eh uma mensagem\n");
 }
 
 int main(){
-
-    int x, y, z;
-    scanf("%d,%d,%d", &x, &y, &z);
-    somatorio(40, 50);
-    printf("%d,%d,%d", x,y,z );
-    sub(10 , 20);
-    printf("Valor de MAX: %d", MAX);
-    return 0;
+    /*
+    .....
+    */
+   int resultado = n_potencia(2, 10);
+   printf("2^10: %d\n", resultado);
+   
 }
 
-int somatorio(int inicio, int final){
-    int soma = 0;
-    printf("Valor de MAX: %d", MAX);
-    for(int x = inicio; x <= final; x+=2){
-        if(x % 2 == 0){
-            soma += x;
-        }
+int n_potencia(int x, int exp){
+    int resultado = 1; 
+    for(int i = 0; i < exp; i++){
+        resultado *= x; // resultado = resultado * x;
     }
-    return soma;
+    return resultado;
 }
