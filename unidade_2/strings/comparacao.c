@@ -3,10 +3,11 @@
 
 int main(){
     
-    char txt1[100] = "Bolla";
-    char txt2[100] = "Bella";
-
-    printf("%d", strcmp(txt2, txt1));
+    char txt1[100] = "Bela";
+    char txt2[100] = "Bala";
+    
+                    /// -1  0    1
+    printf("%d", strcmp(txt1, txt2));
 
     return 0;
 }
