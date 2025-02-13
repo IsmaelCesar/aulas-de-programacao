@@ -3,7 +3,8 @@
 int main(){
 
     int v1[10];
-    v1[2] = 9;
+    // alterando a quarta posição
+    v1[3] = 12;
 
     float v2[10];
     // inicializar a sexta posição
@@ -39,10 +40,15 @@ int main(){
         w2[j] = 2.5;
     }
 
+    // Fazer com que o usuário inicialize todos elementos de w2
+    // for(int j = 0 ; j < tamanho_2; j++){
+    //     scanf("%f", &w2[j]);
+    // }
+
     // printf("%f", w2); // -> não imprime o vetor inteiro
 
     for(int j = 0 ; j < tamanho_2; j++){
-        printf(" %.1f ", w2[j]);
+        printf(" %.1f ", w2[j]);//imprimindo o valor do j-ésimo componente
     }
 
 
