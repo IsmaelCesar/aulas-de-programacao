@@ -82,9 +82,9 @@ void ler_vetor_binario(){
 
 int main(){
 
-    escreve_vetor_txt();
-    ler_vetor_txt();
-    ler_vetor_txt_alternativo();
+    // escreve_vetor_txt();
+    // ler_vetor_txt();
+    // ler_vetor_txt_alternativo();
 
     // Arquivos binários
     escreve_vetor_binario();

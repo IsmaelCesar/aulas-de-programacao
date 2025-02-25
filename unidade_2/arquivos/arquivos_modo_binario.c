@@ -55,14 +55,14 @@ void ler_binario_alternativo(){
 
 int main(){
 
-    escreve_binario();
+    // escreve_binario();
     ler_binario();
 
-    // escrevendo binario alternativo
-    int x = 10;
-    float y = 14.2;
-    escreve_binario_alternativo(&x, &y);
-    ler_binario_alternativo();
+    // // escrevendo binario alternativo
+    // int x = 10;
+    // float y = 14.2;
+    // escreve_binario_alternativo(&x, &y);
+    // ler_binario_alternativo();
 
     return 0;
 }

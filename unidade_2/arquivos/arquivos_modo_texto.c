@@ -35,17 +35,24 @@ void lendo_valores(){
 }
 
 int main(){
+
+    char mensagem[100] = "esta eh uma nova mensagem.";
+    FILE *f = fopen("valores.k", "a");
+
+    fputs(mensagem, f);
+
+    fclose(f);
     
-    cria_arquivo("Isto é uma mensagem");
-    cria_arquivo("Isto é outra mensagem");
+
+    // cria_arquivo("Isto é outra mensagem");
 
     // adicionando valores ao final do arquivo
-    adiciona_mensagem("Isto é uma nova mensagem");
-    adiciona_mensagem("\nIsto é uma nova mensagem com quebra de linha");
-    adiciona_mensagem_string("Esta é uma nova mensagem em uma string");
+    // adiciona_mensagem("Isto é uma nova mensagem");
+    // adiciona_mensagem("\nIsto é uma nova mensagem com quebra de linha");
+    // adiciona_mensagem_string("Esta é uma nova mensagem em uma string");
 
     // lendo valores
-    lendo_valores();
+    // lendo_valores();
 
     return 0;
 }

@@ -59,10 +59,10 @@ void ler_estrutura_bin(){
 
 int main(){
 
-    salva_estrutura_txt();
-    ler_estrutura_txt();
+    // salva_estrutura_txt();
+    // ler_estrutura_txt();
 
-    salva_estrutura_bin();
+    // salva_estrutura_bin();
     ler_estrutura_bin();
     return 0;
 }
