@@ -6,4 +6,4 @@ Nele estão contidos todos os códigos fontes e demonstrações dos assuntos apr
 
 - Site da disciplina **IF165** disponivel no [Link](https://sites.google.com/cin.ufpe.br/if165)
 - Site da disciplina **IF671** disponivel no [Link](https://sites.google.com/cin.ufpe.br/icsa/if671-programação)
-
+- Site da disciplina **IF963** disponível no [Link](https://sites.google.com/cin.ufpe.br/icsa/if963-programação-1a)
