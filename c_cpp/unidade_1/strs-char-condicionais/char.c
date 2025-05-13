@@ -1,33 +1,39 @@
 #include <stdio.h>
 
 int main(){
-    /* char a;
-    printf("Digite um caracter: ");
-    //fflush(stdin); a = fgetchar(); fflush(stdin);
-    //a = getchar();
-    scanf("%c", &a);
-    //fflush(stdin); scanf("%c", &a); fflush(stdin);
+    char nome_v = 'B';
+    printf("Valor nome_v: %c\n", nome_v);
 
-    printf("Valor do caracter: %c\n", a);
+    char novo_c;
+    printf("Digite um caractere: ");
+    scanf("%c", &novo_c);
+    printf("Voce digitou: %c\n", novo_c);
 
-    char v;
-    printf("Digite um novo caracter: ");
-    //fflush(stdin); a = fgetchar(); fflush(stdin);
-    //v = getchar();
-    scanf(" %c", &v);
-    //fflush(stdin); scanf("%c", &a); fflush(stdin);
+    printf("Digite outro caractere: ");
+    scanf(" %c", &novo_c);
+    novo_c = getchar();
+    fflush(stdin);
+    scanf("%c", &novo_c);
+    fflush(stdin);
+    printf("Voce digitou: %c\n", novo_c);
 
-    printf("Valor do caracter: %c\n", v); */
+    char c1 = 'A';
+    printf("Valor de c1: %d\n", c1);
+    printf("Valor de c1: %c\n", 65);
+    printf("Valor de c1: %c\n", '7');
+    printf("Valor de c1: %d\n", 7);
+    printf("Valor de c1: %c\n", 7);
 
-    int max; 
-    printf("Digite o tamanho maximo:");
-    scanf("%d", &max);
+    char nome_s[50] = "Esta eh uma string.";
+    printf("\n\n\n\nValor da string: %s\n\n\n\n\n", nome_s);
+    
+    char nome_pessoa[100];
+    printf("Digite seu nome: ");
+    // scanf("%s", nome_pessoa);
+    fgets(nome_pessoa, 99, stdin);
+    gets(nome_pessoa);
+    scanf("%100[^\n]", nome_pessoa);
 
-    char minha_string[max]; 
-
-    printf("Digite um nome: ");
-    scanf("%s", minha_string);
-
-    printf("Seu nome eh: %s\n", minha_string);
+    printf("Seu nome eh: %s", nome_pessoa);
     return 0;
 }
