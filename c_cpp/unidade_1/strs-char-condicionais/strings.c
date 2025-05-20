@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    char a[50] = "Abcde";
-    printf("%s", a);
+    char minha_string[100] = "ab";
 
-    char nome[50];
-    printf("Digite seu nome:");
-    //scanf("%s", nome);
-    //gets(nome);
-    scanf("%50[^\n]", nome);
+    printf("Valor de minha_string: %s\n\n", minha_string);
+    
+    char nome_completo[100];
+    printf("Digite seu nome: ");
+    gets(nome_completo);
+    fgets(nome_completo, 10, stdin);
+    scanf("%100[^\n]", nome_completo);
 
-    printf("Seu nome eh: %s\n", nome);
+    printf("Seu nome e: %s", nome_completo);
 
-    printf("Posicao 0: %c\n", nome[0]);
-    printf("Posicao 1: %c\n", nome[1]);
-    printf("Posicao 2: %c\n", nome[2]);
     return 0;
 }
