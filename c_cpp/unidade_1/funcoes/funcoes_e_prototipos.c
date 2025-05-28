@@ -9,6 +9,8 @@ float quadrado(float v1);
 int main(){
     imprime_quadrados(11, 50);
 
+    soma_um(3133);
+
     // float x = 10, resultado;
     // imprime_mensagem(50);
     // printf("Valor de x: %.2f\n", x);
