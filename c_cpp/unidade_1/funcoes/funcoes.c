@@ -16,6 +16,7 @@ void imprime_mensagem(float x){
 }
 
 float quadrado(float v1){
+    float l = v1 + 2; 
     return v1*v1;
 }
 // imprima o quadrado dos números 
