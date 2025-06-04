@@ -14,5 +14,5 @@ def another_function(a,b, my_list=[1,2,4,5]):
 
 k = 10
 j = 15
-# my_function(k, j, imprime_mensagem=False)
-another_function(k,j, my_list=8927389)
+my_function(k, j, False)
+# another_function(k,j, my_list=8927389)

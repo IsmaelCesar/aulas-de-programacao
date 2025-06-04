@@ -1,18 +1,20 @@
 
 
-# def soma_dois(n):
-#     n = n + 2
-#     return n
+def soma_dois(n):
+    n = n + 2
+    return n
 
-# def imprime_algo():
-#     print("Esta eh uma mensagem")
+my_function = lambda n: n+2
 
-# x = 10
-# y = soma_dois(x)
-# k = imprime_algo()
-# print("Valor de x: ", x)
-# print("Valor de y: ", y)
-# print("Valor de k: ", k)
+def imprime_algo():
+    print("Esta eh uma mensagem")
+
+x = 10
+y = soma_dois(x)
+k = imprime_algo() #None
+print("Valor de x: ", x)
+print("Valor de y: ", y)
+print("Valor de k: ", k)
 
 def pesquise(lista , valor):
     for x, e in enumerate(lista):
