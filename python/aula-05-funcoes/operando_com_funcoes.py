@@ -11,11 +11,11 @@ def calc(esqd, dirt, op):
     if op == '+':
         return esqd + dirt
     elif op == '-':
-   	    return esqd - dirt
- 	elif op == '*':
-   		return esqd * dirt
- 	elif op == '/':
-   		return esqd / dirt
+        return esqd - dirt
+    elif op == '*':
+        return esqd * dirt
+    elif op == '/':
+        return esqd / dirt
 
 v1, v2 = my_function(4, 50)
 print("Valor de v1: ", v1, "Valor de v2:", v2)
