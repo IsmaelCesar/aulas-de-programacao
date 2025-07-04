@@ -15,6 +15,7 @@ def escrevendo_dict():
         
         dict_writer.writerow(novo_produto)
         
+#--------
 
 def lendo_dict(): 
     with open(f"{PASTA}/produtos.csv",'r') as f:
@@ -22,11 +23,16 @@ def lendo_dict():
         for valores in dict_reader:
             print(valores)
 
+#--------
+
 def escrevendo_valores(): 
     with open(f"{PASTA}/produtos.csv",'a') as f: 
         writer = csv.writer(f, delimiter=',')
         writer.writerow(["acerola", 1.5, 500])
-        
+
+#--------
+
+
 def percorrendo_csv():
     with open(f"{PASTA}/produtos.csv",'r+') as f: 
         reader = csv.reader(f, delimiter=',')
@@ -34,12 +40,8 @@ def percorrendo_csv():
         for row in reader:
             print(row)
 
-def main(): 
+if __name__ == "__main__":
     percorrendo_csv()
     # escrevendo_valores()
     # lendo_dict()
     # escrevendo_dict()
-
-        
-if __name__ == "__main__":
-    main()

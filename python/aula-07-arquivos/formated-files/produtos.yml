@@ -14,3 +14,7 @@ produtos:
   - nome: Papel Higiênico
     preco: 10.99
     quantidade: 15
+produtos:
+- preco: 5.0
+  produto: acerola
+  quantidade: 600
