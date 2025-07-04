@@ -2,7 +2,7 @@
 
 def main():
     
-    arquivo = open("python/aula-07-arquivos/meu_arquivo.txt", "r")
+    arquivo = open("python/aula-07-arquivos/basic/meu_arquivo.txt", "r")
     
     valores = arquivo.readlines()
     for v in valores:

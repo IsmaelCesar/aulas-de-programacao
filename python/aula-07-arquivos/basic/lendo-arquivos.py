@@ -2,7 +2,7 @@
 
 def main():
     
-    f = open("python/aula-07-arquivos/teste.txt", 'r')
+    f = open("python/aula-07-arquivos/basic/teste.txt", 'r')
     
     lines = f.readlines()
     

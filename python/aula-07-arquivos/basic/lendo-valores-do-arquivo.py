@@ -1,7 +1,7 @@
 
 
 def main():
-    arquivo = open("python/aula-07-arquivos/valores.info", "r")
+    arquivo = open("python/aula-07-arquivos/basic/valores.info", "r")
 
     valores = arquivo.readline()
     valores = valores.split()

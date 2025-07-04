@@ -2,7 +2,7 @@
 
 def main():
     
-    with open("meu_arquivo.txt", "a") as variavel:
+    with open("python/aula-07-arquivos/basic/meu_arquivo.txt", "a") as variavel:
         variavel.write("Esta eh uma nova informacao\n")
 
 

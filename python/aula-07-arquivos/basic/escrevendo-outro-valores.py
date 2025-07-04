@@ -1,7 +1,7 @@
 
 
 def main():
-    arquivo = open("python/aula-07-arquivos/valores.info", "w")
+    arquivo = open("python/aula-07-arquivos/basic/valores.info", "w")
     
     f1 = 15.6
     f2 = 12.7
