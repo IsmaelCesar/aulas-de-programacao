@@ -1,0 +1,16 @@
+produtos:
+  - nome: Leite
+    preco: 3.49
+    quantidade: 20
+  - nome: Pão
+    preco: 2.29
+    quantidade: 35
+  - nome: Ovos
+    preco: 5.99
+    quantidade: 12
+  - nome: Maçãs
+    preco: 4.25
+    quantidade: 50
+  - nome: Papel Higiênico
+    preco: 10.99
+    quantidade: 15
