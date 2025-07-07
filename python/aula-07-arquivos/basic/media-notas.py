@@ -1,7 +1,8 @@
 
 
 def main():
-    with open("python/aula-07-arquivos/basic/notas.info", "r") as arquivo:
+    pasta_arquivo = "python/aula-07-arquivos/basic/"
+    with open(f"{pasta_arquivo}notas.info", "r") as arquivo:
         valores = arquivo.readline()
     
     lista_valores = list(map(float, valores.split()))

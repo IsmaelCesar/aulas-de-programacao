@@ -59,6 +59,21 @@
             "nome": "acerola",
             "preco": 1.5,
             "quantidade": 500
+        },
+        {
+            "nome": "acerola",
+            "preco": 1.5,
+            "quantidade": 500
+        },
+        {
+            "nome": "acerola",
+            "preco": 1.5,
+            "quantidade": 500
+        },
+        {
+            "nome": "acerola",
+            "preco": 1.5,
+            "quantidade": 500
         }
     ]
 }
