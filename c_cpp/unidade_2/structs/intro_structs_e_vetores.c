@@ -9,24 +9,26 @@ typedef struct {
 
 
 int main(){
-
-    Aluno a;
-    a.nome[0] = 'A';
-    a.notas[0] = 1.1;
-    a.notas[1] = 2.2;
-    a.notas[2] = 3.3;
-
     Aluno b = {
         "Dino da Silva Sauro",
         13,
         {10, 13, 44}
     };
-
+    
     Aluno c = {
         .idade = 12,
         .notas = {10, 10, 10},
         .nome = "Bob da Silva Sauro" 
     };
+    
+    
+    Aluno a;
+    a.nome[0] = 'A';
+    a.notas[0] = 1.1;
+    a.notas[1] = 2.2;
+    a.notas[2] = 3.3;
+    
+    float media = (c.notas[0] + c.notas[1] + c.notas[2])/3;
 
     // printf("c.nome: %s\n", c.nome);
     // printf("c.idade: %d\n", c.idade);
