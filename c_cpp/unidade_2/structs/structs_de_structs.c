@@ -16,7 +16,10 @@ typedef struct {
 int main(){
 
     Aluno a;
-    a.m.qtd_itens;
+
+    a.m.qtd_itens = 70;
+
+    scanf("%f", &a.m.peso_maximo);
 
     return 0;
 }

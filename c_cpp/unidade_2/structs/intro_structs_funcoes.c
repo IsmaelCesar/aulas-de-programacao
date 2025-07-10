@@ -21,6 +21,7 @@ int main(){
     Ponto k, l, c;
     k.x = 1.1;
     k.y = 2.2;
+
     l.x = 1.1;
     l.y = 2.2;
 
