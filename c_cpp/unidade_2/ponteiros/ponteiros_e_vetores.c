@@ -20,8 +20,8 @@ int main(){
     printf("Primeiro elemento:(ptr: %p , val: %.2lf)\n", my_vector, *my_vector); // my_vector[0]
     printf("Segundo elemento: (ptr: %p , val: %.2lf)\n", my_vector + 1, *(my_vector + 1)); // *(my_vector + 1) =  my_vector[1]
     printf("Terceiro elemento: (ptr: %p , val: %.2lf)\n", my_vector + 2, *(my_vector + 2)); //*(my_vector + 2) = my_vector[2]
-    printf("Terceiro elemento: (ptr: %p , val: %.2lf)\n", my_vector + 3, *(my_vector + 3)); // *(my_vector + 3) = my_vector[3]
-    printf("\n\n");
+    printf("Quarto elemento: (ptr: %p , val: %.2lf)\n", my_vector + 3, *(my_vector + 3)); // *(my_vector + 3) = my_vector[3]
+    printf("\n\n");                                                                         // *(my_vector + i) = my_vector[i]
 
     printf("Vetor\n");
     for(int i = 0; i < 4; i++){
@@ -40,5 +40,10 @@ int main(){
     }
     printf("\n");
 
+    printf("Lendo vetor:");
+    for(int i = 0 ; i < 4; i++){
+        printf("Digite um valor:");
+        scanf("%f", my_vector + i);
+    }
     return 0;
 }
