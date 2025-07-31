@@ -27,21 +27,22 @@ void lendo_valores(){
     char v4[100];
 
     FILE *f = fopen("valores.k", "r");
-    fscanf(f, "%d %f %c\n", &v1, &v2, &v3);
+    printf("Quantidade de valores: %d\n",fscanf(f, "%d, %f, %c\n", &v1, &v2, &v3));
     fgets(v4, 100, f);
     printf("Valores lidos: %d %.2lf %c\n", v1, v2, v3);
     printf("String lida: %s", v4);
+    printf("\nQuantidade de valores: %d\n",fscanf(f, "%d, %f, %c\n", &v1, &v2, &v3));
     fclose(f);
 }
 
 int main(){
 
-    char mensagem[100] = "esta eh uma nova mensagem.";
-    FILE *f = fopen("valores.k", "a");
+    // char mensagem[100] = "esta eh uma nova mensagem.";
+    // FILE *f = fopen("valores.k", "a");
 
-    fputs(mensagem, f);
+    // fputs(mensagem, f);
 
-    fclose(f);
+    // fclose(f);
     
 
     // cria_arquivo("Isto é outra mensagem");
@@ -52,7 +53,7 @@ int main(){
     // adiciona_mensagem_string("Esta é uma nova mensagem em uma string");
 
     // lendo valores
-    // lendo_valores();
+    lendo_valores();
 
     return 0;
 }

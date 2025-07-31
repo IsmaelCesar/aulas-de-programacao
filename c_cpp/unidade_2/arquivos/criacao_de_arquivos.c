@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    FILE *f = fopen("meu_arquivo.txt", "w");
+    FILE *f = fopen("exemplo.txt", "a");
     // w - escrita ; r - leitura ; a - concatenação
     
     char nome[] = "Dino da Silva Sauro";
